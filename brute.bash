@@ -6,7 +6,7 @@ do
     if [ "$FLAG" != "Nope. Pick another number between 0 and 4096" ]
     then
         echo $FLAG
-    exit
+        exit
     fi
 done
 
